@@ -1,0 +1,36 @@
+# Composer dependencies (jika nanti pakai PHPMailer, dll)
+vendor/
+composer.lock
+
+# Node modules (kalau pakai Tailwind CLI / npm build)
+node_modules/
+package-lock.json
+
+# Tailwind CSS build result
+assets/css/output.css
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs & cache
+*.log
+*.cache
+
+# Env & sensitive config
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.zip
+*.tar.gz
+
+# Deployment
+deployment.sh
