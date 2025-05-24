@@ -1,9 +1,12 @@
 <?php
 $title = "WordPress Hosting Murah & Cepat - CumaHost";
 $description = "Hosting terbaik untuk WordPress: cepat, aman, auto-install, SSL gratis, dan dukungan optimal. Cocok untuk pemula & profesional.";
-require_once '../config.php';
-include '../komponen/header.php';
-include '../komponen/nav.php';
+require_once '../../config.php';
+
+include '../../komponen/header.php';
+include '../../komponen/nav.php';
+include '../../komponen/footer.php';
+
 ?>
 
 <!-- HERO WORDPRESS -->
