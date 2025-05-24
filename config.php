@@ -5,7 +5,8 @@
 $host = $_SERVER['HTTP_HOST'] ?? '';
 
 // Cek apakah sedang di staging
-$is_staging = str_contains($host, 'stage.cumahost.com');
+$is_staging = strpos($host, 'stage.cumahost.com') !== false;
+
 
 // Base URL otomatis
 $base_url = $is_staging ? 'https://stage.cumahost.com/' : 'https://cumahost.com/';
