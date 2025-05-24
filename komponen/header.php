@@ -19,15 +19,16 @@
   <meta property="og:image" content="https://cumahost.com/assets/img/og-image.png">
 
   <!-- Tailwind CSS -->
-  <link href="<?= dirname($_SERVER['PHP_SELF']) ?>/assets/css/output.css" rel="stylesheet">
-</head>
-<body class="font-sans antialiased text-gray-800">
+  <link href="assets/css/output.css" rel="stylesheet">
 
-<!-- HEADER BRANDING -->
-<header class="bg-white border-b">
-  <div class="max-w-screen-xl mx-auto px-4 py-4">
-    <h1 class="text-2xl font-bold text-blue-600">CumaHost</h1>
-    <p class="text-gray-500 text-sm">Web Hosting Profesional dan Terpercaya</p>
-  </div>
-</header>
-<!-- END HEADER BRANDING -->
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+
+  <!-- HEADER BRANDING -->
+  <header class="bg-white border-b">
+    <div class="max-w-screen-xl mx-auto px-4 py-4">
+      <h1 class="text-2xl font-bold text-blue-600">CumaHost</h1>
+      <p class="text-gray-500 text-sm">Web Hosting Profesional dan Terpercaya</p>
+    </div>
+  </header>
+  <!-- END HEADER BRANDING -->
